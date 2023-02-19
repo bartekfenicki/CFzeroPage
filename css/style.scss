@@ -1,5 +1,19 @@
+@use "color" as *;
+
 body {
     nav {
-        background-color: whitesmoke;
+        background-color: #444342;
     }
 }
+@media screen and (min-width: 1400px) { 
+
+
+}
+
+/*  body { 
+        nav {
+            background-color: whitesmoke; 
+        }
+    }
+    */
+    
