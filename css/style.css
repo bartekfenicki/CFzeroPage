@@ -1,5 +1,39 @@
 body nav {
   background-color: #444342;
+  color: white;
+}
+body nav .nav-link {
+  color: #dddddc;
+  transition: 0.3s;
+}
+body nav .nav-link:hover {
+  color: #489C33;
+}
+body .banner .container-fluid {
+  background-image: url(/ZEROCFPICS/background1.png);
+  background-size: cover;
+  background-position: center;
+}
+body .banner .container-fluid .row .col-4 .box {
+  margin-top: 450px;
+}
+body .banner .container-fluid .row .col-4 .box h1 {
+  color: #2B2A29;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 25px;
+}
+body .banner .container-fluid .row .col-4 .box #arrow {
+  text-align: center;
+}
+body .banner .container-fluid .row .col-4 .box #arrow .arrow {
+  text-align: center;
+  scale: 70%;
+  transition: 0.3s;
+}
+body .banner .container-fluid .row .col-4 .box #arrow .arrow:hover {
+  margin-top: 10px;
+  scale: 73%;
 }
 
 /*  body { 
