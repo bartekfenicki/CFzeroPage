@@ -50,11 +50,88 @@ body {
             }
         }
     }
+   
+    .brandinfo {
+        .col-lg-4 {
+            #greengraphic {
+                margin-top: 80px;
+                height: 17vh;
+                width: 35vh;
+                background-image: url(/ZEROCFPICS/greengraphic.png);
+                background-size: contain;
+                
+            }
+        }
+    }
+    .textrow {
+        background-color: $secondary-color;
+        p {
+        text-align: center; 
+        font-size: 20px; 
+        font-weight: 600; 
+        color: $third-color;
+        }
+    }
+    .twoPieceMenu {
+        text-align: center;
+        background-color: $primary-color;
+        #info {
+            width: 100%;
+            .box {
+                margin-top: 170px;
+                font-size: 25px;
+                font-weight: 400;
+                color: $third-color;
+                img {
+                    margin-bottom: 30px;
+                }
+                background-color: $secondary-color;
+            }
+            
+        }
+        #recycling {
+            margin-top: 170px;
+            font-size: 25px;
+            font-weight: 400;
+            color: $third-color;
+            img {
+                margin-bottom: 30px;
+            }
+        }
+    }
+ 
 }
-@media screen and (min-width: 1400px) { 
 
 
+
+@media  (max-width: 850px) {
+    #arrowdown {
+        scale: 70%;
+        margin-bottom: 60px;
+    }
+    
 }
+@media (max-width: 600px) {
+    #arrowtext {
+        font-size: 20px;
+    }
+    #greengraphic {
+        margin-left: 40px;
+    }
+}
+@media (800px < width < 1000px) {
+    #greengraphic {
+        scale: 120%;
+        margin-left: 150px;
+    }
+}
+@media (600px < width < 800px) {
+    #greengraphic {
+        scale: 110%;
+        margin-left: 150px;
+    }
+}
+
 
 /*  body { 
         nav {

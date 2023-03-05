@@ -35,7 +35,75 @@ body .banner .container-fluid .row .col-4 .box #arrow .arrow:hover {
   margin-top: 10px;
   scale: 73%;
 }
+body .brandinfo .col-lg-4 #greengraphic {
+  margin-top: 80px;
+  height: 17vh;
+  width: 35vh;
+  background-image: url(/ZEROCFPICS/greengraphic.png);
+  background-size: contain;
+}
+body .textrow {
+  background-color: #2B2A29;
+}
+body .textrow p {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: #dddddc;
+}
+body .twoPieceMenu {
+  text-align: center;
+  background-color: #489C33;
+}
+body .twoPieceMenu #info {
+  width: 100%;
+}
+body .twoPieceMenu #info .box {
+  margin-top: 170px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #dddddc;
+  background-color: #2B2A29;
+}
+body .twoPieceMenu #info .box img {
+  margin-bottom: 30px;
+}
+body .twoPieceMenu #recycling {
+  margin-top: 170px;
+  font-size: 25px;
+  font-weight: 400;
+  color: #dddddc;
+}
+body .twoPieceMenu #recycling img {
+  margin-bottom: 30px;
+}
 
+@media (max-width: 850px) {
+  #arrowdown {
+    scale: 70%;
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 600px) {
+  #arrowtext {
+    font-size: 20px;
+  }
+  #greengraphic {
+    margin-left: 40px;
+  }
+}
+@media (800px < width < 1000px) {
+  #greengraphic {
+    scale: 120%;
+    margin-left: 150px;
+  }
+}
+@media (600px < width < 800px) {
+  #greengraphic {
+    scale: 110%;
+    margin-left: 150px;
+  }
+}
 /*  body { 
         nav {
             background-color: whitesmoke; 
