@@ -74,29 +74,43 @@ body {
     }
     .twoPieceMenu {
         text-align: center;
-        background-color: $primary-color;
+       
         #info {
             width: 100%;
-            .box {
-                margin-top: 170px;
+            background-color: $secondary-color; 
+            padding-top: 100px;
+            padding-bottom: 100px;
+            span {   
                 font-size: 25px;
                 font-weight: 400;
                 color: $third-color;
                 img {
                     margin-bottom: 30px;
                 }
-                background-color: $secondary-color;
             }
+            /*
+            &:hover {
+                background-color: $primary-color;
+    
+               }     
+            */
             
         }
         #recycling {
-            margin-top: 170px;
-            font-size: 25px;
-            font-weight: 400;
-            color: $third-color;
-            img {
-                margin-bottom: 30px;
+            width: 100%;
+            background-color: $primary-color;
+            padding-top: 100px;
+            padding-bottom: 100px;
+            transition: 0.5s;
+            span {   
+                font-size: 25px;
+                font-weight: 400;
+                color: $third-color;
+                img {
+                    margin-bottom: 30px;
+                }
             }
+           
         }
     }
  

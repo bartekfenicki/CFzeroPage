@@ -53,28 +53,40 @@ body .textrow p {
 }
 body .twoPieceMenu {
   text-align: center;
-  background-color: #489C33;
 }
 body .twoPieceMenu #info {
   width: 100%;
+  background-color: #2B2A29;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  /*
+  &:hover {
+      background-color: $primary-color;
+
+     }     
+  */
 }
-body .twoPieceMenu #info .box {
-  margin-top: 170px;
+body .twoPieceMenu #info span {
   font-size: 25px;
   font-weight: 400;
   color: #dddddc;
-  background-color: #2B2A29;
 }
-body .twoPieceMenu #info .box img {
+body .twoPieceMenu #info span img {
   margin-bottom: 30px;
 }
 body .twoPieceMenu #recycling {
-  margin-top: 170px;
+  width: 100%;
+  background-color: #489C33;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  transition: 0.5s;
+}
+body .twoPieceMenu #recycling span {
   font-size: 25px;
   font-weight: 400;
   color: #dddddc;
 }
-body .twoPieceMenu #recycling img {
+body .twoPieceMenu #recycling span img {
   margin-bottom: 30px;
 }
 

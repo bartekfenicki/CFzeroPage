@@ -7,6 +7,7 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
     <!--BOOTSTRAP-->
@@ -139,21 +140,25 @@
         </div>
     </div>
 </section>
-<section class="twoPieceMenu">
+<section class="twoPieceMenu" id="app">
     <div class="container-fluid">
         <div class="row">
-            <div class="col" id="info">
-                <div class="box">
+            <div class="col" id="info" @mouseover="bgChange">
+                <span>
                     <img src="ZEROCFPICS/info.png" alt="info"> <br>
                 SPRAWDŹ KODY ODPADÓW,<br> KTÓRYMI OPERUJEMY
-                </div>
+               
+                </span>
+                  
                 
             </div>
-            <div class="col" id="recycling">
-                <div class="box">
+            <div class="col" id="recycling" @mouseover="bgLeave">
+                <span>
                     <img src="ZEROCFPICS/recycle-sign.png" alt="rec"> <br>
                 POZNAJ TECHNOLOGIĘ <br> RECYKLINGU
-                </div>
+                </span>
+                  
+                
                 
             </div>
         </div>
@@ -161,7 +166,7 @@
 </section>
 
 
-
+        <script src="app.js"></script>
     </main>
 
 
