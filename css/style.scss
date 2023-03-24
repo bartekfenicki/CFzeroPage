@@ -74,9 +74,11 @@ body {
     }
     .twoPieceMenu {
         text-align: center;
-       
+       display: inline-block;
+       width: 100%;
         #info {
             width: 100%;
+            min-width: 350px;
             background-color: $secondary-color; 
             padding-top: 100px;
             padding-bottom: 100px;
@@ -88,12 +90,7 @@ body {
                     margin-bottom: 30px;
                 }
             }
-            /*
-            &:hover {
-                background-color: $primary-color;
-    
-               }     
-            */
+           
             
         }
         #recycling {
@@ -112,6 +109,26 @@ body {
             }
            
         }
+    }
+    .welcome-baner {
+        width: 100%;
+        background-color: #ffffff;
+        text-align: center;
+
+        .container-fluid {
+            .row {
+                .col {
+                    h1 {
+                        padding: 50px 0px 50px 0px;
+                        color: $primary-color;
+                    }
+                }
+            }
+        }
+    }
+    .form-block {
+background-color: #444342;
+color: #dddddc;
     }
  
 }

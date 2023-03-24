@@ -53,18 +53,15 @@ body .textrow p {
 }
 body .twoPieceMenu {
   text-align: center;
+  display: inline-block;
+  width: 100%;
 }
 body .twoPieceMenu #info {
   width: 100%;
+  min-width: 350px;
   background-color: #2B2A29;
   padding-top: 100px;
   padding-bottom: 100px;
-  /*
-  &:hover {
-      background-color: $primary-color;
-
-     }     
-  */
 }
 body .twoPieceMenu #info span {
   font-size: 25px;
@@ -88,6 +85,19 @@ body .twoPieceMenu #recycling span {
 }
 body .twoPieceMenu #recycling span img {
   margin-bottom: 30px;
+}
+body .welcome-baner {
+  width: 100%;
+  background-color: #ffffff;
+  text-align: center;
+}
+body .welcome-baner .container-fluid .row .col h1 {
+  padding: 50px 0px 50px 0px;
+  color: #489C33;
+}
+body .form-block {
+  background-color: #444342;
+  color: #dddddc;
 }
 
 @media (max-width: 850px) {
